@@ -4,7 +4,7 @@ Uma API REST construída com Python e FastAPI que consome dados de personagens d
 
 Projeto desenvolvido durante a trilha 7 Days of Code — Vibe Coding com Claude Code, da Alura, onde construímos uma API do zero guiando um agente de IA como parceiro de programação.
 
-## Como rodar
+## Como rodar localmente
 ```bash
 # Criar ambiente virtual
 python -m venv venv
@@ -19,12 +19,10 @@ source venv/bin/activate
 uvicorn app.main:app --reload
 ```
 
-## Link de acesso
-🔗http://localhost:8000/docs
+Acesse 🔗http://localhost:8000/docs para testar a API pela documentação interativa.
 
 ## Tecnologias
 - Python 3.11+
 - FastAPI — Framework web assíncrono
 - Uvicorn — Servidor ASGI
-- Requests — Consumo de APIs externas
 - Pytest — Testes automatizados
