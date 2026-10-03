@@ -18,6 +18,10 @@ source venv/bin/activate
 # Rodar a aplicação
 uvicorn app.main:app --reload
 ```
+
+## Link de acesso
+🔗http://localhost:8000/docs
+
 ## Tecnologias
 - Python 3.11+
 - FastAPI — Framework web assíncrono
