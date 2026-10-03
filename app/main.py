@@ -6,7 +6,7 @@ import requests
 # Adiciona o diretório atual ao sys.path para resolver imports locais
 #sys.path.append(os.path.dirname(__file__))
 
-from pokeapi import buscar_personagem, PersonagemNaoEncontrado
+from app.pokeapi import buscar_personagem, PersonagemNaoEncontrado
 
 app = FastAPI()
 

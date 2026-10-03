@@ -1,5 +1,5 @@
 import requests
-from models import Personagem
+from app.models import Personagem
 
 class PersonagemNaoEncontrado(Exception):
     """Exceção lançada quando um personagem não é encontrado na PokéAPI."""
